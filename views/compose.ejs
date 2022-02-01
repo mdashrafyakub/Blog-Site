@@ -1,0 +1,11 @@
+<%- include("header") %>
+<form action="/compose" method="post">
+    <div class="form-group">
+        <label for="exampleInputTitle">Title</label>
+        <input type="text" class="form-control" name="title" id="exampleInputTitle" aria-describedby="emailHelp" placeholder="Title">
+        <label for="exampleInputContent">Content</label>
+        <textarea class="form-control" name="content" id="exampleInputTitle" placeholder="Type here" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<%- include("footer") %>
